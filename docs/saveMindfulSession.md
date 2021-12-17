@@ -20,7 +20,7 @@ AppleHealthKit.saveMindfulSession(
   (err: Object, results: number) => {
     if (err)
       return {
-        results,
+        return,
       }
     // mindfullSession successfully saved
   },
